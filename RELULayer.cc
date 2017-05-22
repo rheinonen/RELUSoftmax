@@ -2,6 +2,7 @@
 #include <math.h>
 #include "RELULayer.h"
 
+
 RELULayer::RELULayer (
   const int* input_shape,
   const int* output_shape,

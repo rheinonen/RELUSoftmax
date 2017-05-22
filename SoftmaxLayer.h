@@ -15,15 +15,16 @@ private:
   
 public:
   SoftmaxLayer (
-    const int* input_shape;
-    const int* output_shape;
-    const char* prev;
-    const char* next;
-    const char* class_names;
+    const int* input_shape,
+    const int* output_shape,
+    const char* prev,
+    const char* next,
+    const char* class_names
 ) {};
   
   void get_largest_10(vector<float> probs,int (&largest)[10]){};
   void forwardProp(const vector<float> input, vector<float> &output) {};
 }
 
-} 
+};
+#endif 
