@@ -27,7 +27,7 @@ SoftmaxLayer::SoftmaxLayer (
  /** 
   * print 10 best guesses
   */
-    int largest[10]=get_largest_10(output,output_shape); // need to write this function
+    int largest[10]=get_largest_10(output,*output_shape); // need to write this function
     for (i=0; i<10; i++) {
       cout << i << class_names(largest[i]) << "\n";
     }
