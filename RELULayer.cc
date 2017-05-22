@@ -1,6 +1,6 @@
 #include <vector>
 #include <math.h>
-#include "RELULayer.cc"
+#include "RELULayer.h"
 
 RELULayer::RELULayer (
   const int* input_shape,

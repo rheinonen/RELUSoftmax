@@ -1,7 +1,7 @@
 #include <vector>
 #include <cstdio>
 #include <math.h>
-#include "SoftmaxLayer.cc"
+#include "SoftmaxLayer.h"
 
 SoftmaxLayer::SoftmaxLayer (
   const int* input_shape,
