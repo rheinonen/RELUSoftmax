@@ -20,7 +20,7 @@ public:
     const char* next;
 ) {};
 
-  void forwardProp(const float* input, float* output) {};
+  void forwardProp(const vector<float> input, vector<float> &output) {};
 
 }
 

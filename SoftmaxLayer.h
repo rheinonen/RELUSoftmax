@@ -22,8 +22,8 @@ public:
     const char* class_names;
 ) {};
   
-  void forwardProp(const float* input, float* output) {};
-
+  void get_largest_10(vector<float> probs,int (&largest)[10]){};
+  void forwardProp(const vector<float> input, vector<float> &output) {};
 }
 
 } 
